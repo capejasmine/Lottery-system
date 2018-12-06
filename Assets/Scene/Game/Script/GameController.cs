@@ -8,9 +8,22 @@ public class GameController : MonoBehaviour {
 	public float pw_z;
 	public GameObject objs;
 
+	public GameObject cube;
+	private float angle = 0;
+	private float r = 5;
+
 	// Use this for initialization
 	void Start () {
-		
+//		Vector3 center = cube.transform.position;
+//		for(int i = 0; i < 72; i++){
+//			GameObject temp = (GameObject)GameObject.Instantiate (cube);
+//			float hudu = (angle / 180) * Mathf.PI;
+//			float xx = center.x + r * Mathf.Cos (hudu);
+//			float yy = center.x + r * Mathf.Sin (hudu);
+//			temp.transform.position = new Vector3 (xx, yy, center.z);
+//			temp.transform.LookAt (center);
+//			angle = angle + 5;
+//		}
 	}
 	
 	// Update is called once per frame
@@ -23,8 +36,7 @@ public class GameController : MonoBehaviour {
 
 				objs.transform.GetChild(i).GetComponent<Rigidbody>().AddForce(pw_x,pw_y,pw_z);
 			}
-
-			Debug.Log("按住Up");
+				
 		}
 	}
 }
