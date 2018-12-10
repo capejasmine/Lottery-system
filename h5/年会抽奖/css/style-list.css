@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    overflow-y: hidden;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* 清除浮动 */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+.f-l {
+   float: left;
+}
+.f-r {
+    float: right;
+}
+* {
+    font-family: '微软雅黑', sans-serif, arial;
+}
+html {
+    height: 100%;
+    font-size: 62.5%;
+    color: #222;
+}
+::selection {
+    background-color: #b3d4fc;
+    text-shadow: none;
+}
+body {
+    height: 100%;
+    /*background: #FFF7E3;*/
+    background: url("../img/yunwen.jpg") repeat;
+    /*background: #fff;*/
+    font-size: 1.5rem;
+}
+
+.top-head {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 2;
+    background: url("../img/top_border.png") repeat-x;
+}
+.main {
+    width: 62%;
+    /*height: 100%;*/
+    margin: 4rem auto 0 auto;
+}
+.lotterty-infogo {
+    display: block;
+    margin: 3rem auto 0 auto;
+    text-align: center
+}
+.lotterty-infogo h3 {
+    display: inline-block;
+    color: #FD361F;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'STKaiti', 'KaiTi ';
+}
+.lotterty-infogo .line {
+    margin: 2rem auto 1rem auto;
+    width: 20%;
+    height: 2px;
+    background: #FD361F;
+}
+
+.lottery-main {
+    position: relative;
+    margin: 0 auto;
+    /*padding-bottom: 5rem;*/
+    /*padding: 20px 0;*/
+    /*height: 100%;*/
+    width: 100%;
+    /*overflow: hidden;*/
+    /*background: #fff;*/
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 5px;*/
+    /*box-shadow: 0 2px 2px rgba(0,0,0,.1)*/
+}
+.wrap-border-main {
+    position: absolute;
+    width: 100%;
+    /*height: 75%;*/
+    z-index: -5;
+}
+.wrap-border {
+    position: absolute;
+    width: 21.5rem;
+    height: 21.5rem;
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: url("../img/main-wrap-border.png") no-repeat 0 0;*/
+    background-size: contain;
+}
+.wrap-border-top {
+    top: 0.2%;aaa
+    left: 9%;
+    bottom: 0;
+    height: 97.4%;
+    width: 81%;
+    margin: 0 auto;
+    border-top: 4px solid #CB141D;
+    border-bottom: 4px solid #CB141D;
+}
+.wrap-border-left {
+    left: 0;
+    right: 0;
+    bottom: 7%;
+    height: 80%;
+    width: 98.7%;
+    border-left: 4px solid #CB141D;
+}
+.wrap-border-right {
+    top: 10%;
+    right: 0;
+    height: 80%;
+    width: 4.0px;
+    background: #CB141D;
+}
+.wrap-border-1 {
+    top: 0;
+    left: 0;
+}
+.wrap-border-2 {
+    top: 0;
+    right: 0;
+}
+.wrap-border-3 {
+    bottom: 0;
+    left: 0;
+}
+.wrap-border-4 {
+    bottom: 0;
+    right: 0;
+}
